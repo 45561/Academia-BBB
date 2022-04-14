@@ -1,0 +1,19 @@
+<%-include('../cabecalho.ejs');%>
+   <form method="post" enctype="multipart/form-data">
+       Id: <input type="hidden" readonly name="id" value="%=Integrante._id%>"
+       Nome: <input type="text" name="nome" value="%=Integrante.nome%>"
+        placeholder="Digite o nome do responsavel pelo evento" required ><br>
+       Email <input type="email" name="email" value="%=Integrante.email%"
+        placeholder="Digite seu email" required ><br>
+       Endereço <input type="text" name="endereco" value="%Integrante.endereco%" 
+        placeholder="Digite seu endereco"><br>
+       Projeto: 
+       <select name="projeto">
+            <option value="">Escolha o projeto do integrante</option>
+       </select>
+       <br>
+
+       Foto: <input type="file" name="foto" required ><br>
+       <input type="submit" value="Enviar">
+   </form> 
+<%-include('../rodape.ejs');%>

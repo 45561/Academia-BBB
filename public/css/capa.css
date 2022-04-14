@@ -1,0 +1,23 @@
+body{
+    margin: auto;
+    max-width: 1024px;
+
+}
+h1{
+    font-size: 120px;
+    text-align: center;
+    color:blueviolet;
+    line-height: 1cm;
+}
+p{
+    text-align: center;
+    color:black;
+}
+mark h1{
+    background-color:#f3f052; color:#000000;
+    height: 100px;
+    color:#020202;
+}
+mark p{
+    background-color:#f3f052; color:#000000;
+}
